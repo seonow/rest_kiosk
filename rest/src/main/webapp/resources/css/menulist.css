@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+	font-family: 'Pretendard-Regular', sans-serif;
+	background: #f2f2f2;
+}
+
+table {
+  width: 300%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* 링크 버튼 스타일링 */
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#ml {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+}
+
+#menulist{
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+}
+
+a:hover {
+  background-color: #3e8e41;
+}
+
+.wrap{
+   width : 100%;
+   border-bottom : solid 1px #ccc;
+}
+
+#login{
+   margin : 0;
+   list-style : none;
+   display : flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+#login li{
+   margin : 0;
+}

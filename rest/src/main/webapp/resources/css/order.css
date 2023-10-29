@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+	font-family: 'Pretendard-Regular', sans-serif;
+	background: #f2f2f2;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	dispaly: inline;
+}
+
+#back {
+	position: relative;
+	right: 0;
+}
+/* 메뉴 카테고리 스타일 */
+.menuCategory {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menuCategory li {
+	border: 1px solid #ccc;
+	flex-basis: 25%;
+	text-align: center;
+}
+
+.menuCategory li a {
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+.menuCategory li a:hover {
+	background-color: #eee;
+}
+
+/* 메뉴 목록 스타일 */
+.menuList {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.korean {
+	position: relative;
+}
+
+.submenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 1200px;
+}
+
+.menubox {
+	margin: 30px 10px;
+	border: 1px solid #000;
+	width: 270px;
+}
+
+/* 각 카테고리별 메뉴 목록 스타일 */
+.korean a, .china a, .japan a, .school a {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.korean p, .china p, .japan p, .school p {
+	text-align: center;
+}
+
+.korean img, .china img, .japan img, .school img {
+	width: 100%;
+	height: auto;
+}
+
+.korean input[type="submit"], .china input[type="submit"], .japan input[type="submit"],
+	.school input[type="submit"] {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	margin: 0.5rem 0;
+	cursor: pointer;
+	width: 100%;
+}
+
+.korean input[type="submit"]:hover, .china input[type="submit"]:hover,
+	.japan input[type="submit"]:hover, .school input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.china {
+	display: none;
+}
+
+.japan {
+	display: none;
+}
+
+.school {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}

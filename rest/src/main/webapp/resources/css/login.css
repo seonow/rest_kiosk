@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f2f2f2;
+  font-family: 'Pretendard-Regular';
+  margin: 0;
+  padding: 0;
+}
+#main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 로그인 폼 스타일 */
+#loginforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 아이디 입력란 스타일 */
+.id {
+  display: flex;
+  justify-content: center;
+}
+
+/* 비밀번호 입력란 스타일 */
+.pw {
+  display: flex;
+  justify-content: center;
+}
+
+p{
+	width: 100px;
+}
+
+/* 입력란 스타일 */
+input {
+  font-size: 1.2em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1em;
+}
+
+/* 로그인 버튼 스타일 */
+#loginBtn {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float : right;
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#id{
+	padding : 10px;
+}
+
+#pw{
+	width: 300px;
+	height: 100px;
+}
+
+#loginBtn{
+	float : right;
+	width : 100px;
+	height : 100px;
+}
